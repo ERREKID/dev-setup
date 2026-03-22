@@ -1,0 +1,6 @@
+{
+  "name": "dev-setup",
+  "image": "archlinux:latest",
+  "postCreateCommand": "bash setup.sh",
+  "forwardPorts": [6080]
+}
